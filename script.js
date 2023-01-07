@@ -9,6 +9,12 @@ function increment() {
   }
   countEl.textContent = count
 }
+function decrement() {
+  if (count != 0) {
+    count--
+  }
+  countEl.textContent = count
+}
 
 function saveEntries() {
   if (count != 0) {
